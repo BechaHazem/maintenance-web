@@ -1,8 +1,8 @@
 export interface Panne {
-    id: number;
+    id: number | null;
     description: string;
-    category: string;
-    equipmentId: number;
+    categorie: string;
+    equipementId: number;
     dateSignalement: Date;
   }
   

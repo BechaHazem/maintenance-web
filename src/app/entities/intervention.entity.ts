@@ -1,9 +1,9 @@
 export interface Intervention {
     id: number;
-    equipmentId: number;    
-    technicianId: number;    
-    status: string;
+    equipementId: number;       
+    technicienId: number;       
+    statut: string;   
     date: Date;              
-    cost: number;
+    cout: number;
   }
   
